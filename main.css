@@ -10,19 +10,19 @@ html{
     background-color: white;
     padding: .5em;
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 6em 3em;
+    justify-items: center;
     margin: .5em;
 }
 
 img{
-    height: 100px;
+    height: 7em;
 }
 
 .profile-pic{
-    padding: 1em;
+    padding: .2em;
     align-self: center;
-    border: black 1px solid;
     grid-column-start:1;
 }
 
@@ -30,24 +30,23 @@ img{
     font-size: 1.1em;
     align-self: center;
     grid-row-start: 2;
-    border: black 1px solid;
 }
 
 .flight-number{
-    border: black 1px solid;
     font-size: 1.1em;
-    align-self: center;
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
 }
 
 .flight-status{
-    border: black 1px solid;
-    font-size: 1.1em;
-    height: 1.5em;
+    font-size: 1.4em;
+    height: 3em;
+    width: 10em;
     color: black;    
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 1;
+    text-align: center;
+    line-height: 3em;
 }
 
 /* ----------------------------------------------------------------------------------------------- */
@@ -68,7 +67,6 @@ button {
 }
 
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
   background: #456990;
   /* color: #fff; */
 }
